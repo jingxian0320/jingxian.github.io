@@ -626,6 +626,7 @@ ul.skill button {
     border: 1px solid rgb(230, 229, 229);
     text-align: left;
 	background: #fff;
+  min-height: 450px;
 }
 .news-right h4{
 	margin:0;
