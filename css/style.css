@@ -463,17 +463,21 @@ h5.sub {
 }
 
 
-ul.skill {
+.skill-list {
     padding-top: 0.5em;
     width: 50%;
     margin: auto;
 }
-ul.skill li {
+.skill-list li {
     display: block;
     flex-wrap: wrap;
     text-align: center;
 }
-ul.skill button {
+.skill-list p {
+    text-align: center;
+}
+
+.skill-list a {
     display: inline-block;
     margin: 3px 3px 5px 5px
 }
@@ -1736,7 +1740,7 @@ a.lightbox img:hover {
 		float: none;
 		width: 100%;
 		border-left: none;
-		padding: 1em 0 0em 0em;
+		padding: 1em 0 1em 0em;
 	}
 	.work-right h5 span.glyphicon {
 		margin-right: 1.3em;
@@ -1745,6 +1749,9 @@ a.lightbox img:hover {
 	.work-left2 h5 span.glyphicon {
 		margin-left: 1.4em;
 	}
+  .glyphicon {
+        display:none;
+    }
 	.work-info h5 {
 		padding-left: 2px;
 	}
@@ -1870,7 +1877,7 @@ a.lightbox img:hover {
 		margin-bottom: 10em;
 		background: url(../images/banner.jpg) no-repeat -25px 0px;
 		background-size: cover;
-		min-height: 205px;
+		min-height: 300px;
 	}
 	.work-info p {
 		font-size: 13px;
@@ -1939,7 +1946,7 @@ a.lightbox img:hover {
 		margin-bottom: 10em;
 		background: url(../images/banner.jpg) no-repeat -16px 0px;
 		background-size: cover;
-		min-height: 192px;
+		min-height: 300px;
 	}
 	.work-info h5 {
 		font-size: 16.5px;
@@ -1960,6 +1967,7 @@ a.lightbox img:hover {
 	.contact-agileits-w3layouts span {
 		width: 63px;
 	}
+
 }
 @media(max-width:320px){
 	ul.address li ul.address-text li {
@@ -1996,7 +2004,7 @@ a.lightbox img:hover {
 		margin-bottom: 10em;
 		background: url(../images/banner.jpg) no-repeat -5px 0px;
 		background-size: cover;
-		min-height: 160px;
+		min-height: 300px;
 	}
 	.banner-right-w3-agileits {
 		padding: 15px;
